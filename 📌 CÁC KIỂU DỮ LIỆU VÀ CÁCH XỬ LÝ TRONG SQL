@@ -2,7 +2,7 @@
 
 ## 📖 1. Các kiểu dữ liệu trong SQL  
 
-1.1. Dữ liệu dạng số
+1.1. Dữ liệu dạng số  
 
 INTEGER, FLOAT, DECIMAL, NUMERIC – Dùng để lưu trữ số nguyên hoặc số thực.
 
