@@ -1,0 +1,109 @@
+# 📌 CÁC KIỂU DỮ LIỆU VÀ CÁCH XỬ LÝ TRONG SQL  
+
+## 📖 1. Các kiểu dữ liệu trong SQL  
+
+1.1. Dữ liệu dạng số
+
+INTEGER, FLOAT, DECIMAL, NUMERIC – Dùng để lưu trữ số nguyên hoặc số thực.
+
+Ví dụ:
+
+CREATE TABLE Numbers (
+    ID INT PRIMARY KEY,
+    Amount DECIMAL(10,2),
+    Score FLOAT
+);
+
+1.2. Dữ liệu dạng ký tự
+
+CHAR, VARCHAR, TEXT – Lưu trữ chuỗi ký tự với độ dài cố định hoặc động.
+
+Ví dụ:
+
+CREATE TABLE Strings (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Description TEXT
+);
+
+1.3. Dữ liệu dạng ngày giờ
+
+DATE, TIME, DATETIME, TIMESTAMP – Lưu trữ thông tin về thời gian.
+
+Ví dụ:
+
+CREATE TABLE Dates (
+    ID INT PRIMARY KEY,
+    CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    BirthDate DATE
+);
+
+🔍 2. Kiểm tra dữ liệu
+
+2.1. Xác định các loại dữ liệu có trong bảng
+
+Dùng INFORMATION_SCHEMA.COLUMNS để kiểm tra kiểu dữ liệu của bảng.
+
+SELECT COLUMN_NAME, DATA_TYPE 
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'YourTable';
+
+2.2. Kiểm tra dữ liệu NULL trong bảng
+
+Sử dụng IS NULL để tìm giá trị NULL.
+
+SELECT * FROM YourTable WHERE ColumnName IS NULL;
+
+🛠 3. Các hàm làm việc với kiểu dữ liệu
+
+3.1. Hàm chuyển đổi kiểu dữ liệu
+
+CAST(), CONVERT() – Chuyển đổi kiểu dữ liệu.
+
+Ví dụ:
+
+SELECT CAST(123.45 AS INT) AS ConvertedValue;
+SELECT CONVERT(VARCHAR, GETDATE(), 103) AS FormattedDate;
+
+3.2. Xử lý dữ liệu dạng chuỗi
+
+LENGTH(), CONCAT(), SUBSTRING(), TRIM()
+
+Ví dụ:
+
+SELECT CONCAT(FirstName, ' ', LastName) AS FullName FROM Employees;
+
+3.3. Xử lý dữ liệu dạng ngày tháng
+
+DATEDIFF(), DATEADD(), FORMAT()
+
+Ví dụ:
+
+SELECT DATEDIFF(YEAR, BirthDate, GETDATE()) AS Age FROM Employees;
+
+3.4. Xử lý dữ liệu NULL
+
+COALESCE(), ISNULL() – Thay thế giá trị NULL.
+
+Ví dụ:
+
+SELECT COALESCE(Address, 'Không có địa chỉ') AS Address FROM Customers;
+
+🎨 4. Các hàm định dạng dữ liệu
+
+4.1. Định dạng ngày
+
+FORMAT() – Chuyển đổi định dạng ngày tháng.
+
+Ví dụ:
+
+SELECT FORMAT(GETDATE(), 'dd/MM/yyyy') AS FormattedDate;
+
+4.2. Làm tròn số
+
+ROUND(), CEILING(), FLOOR()
+
+Ví dụ:
+
+SELECT ROUND(123.456, 2) AS RoundedValue;
+
