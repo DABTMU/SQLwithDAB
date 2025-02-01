@@ -62,17 +62,17 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 
 ---
 
-## 🛠 Cách Học
-✅ Học qua các bài viết và tài liệu trên GitHub.
-✅ Thực hành trực tiếp với SQL thông qua các bài tập thực tế.
-✅ Thảo luận và giải đáp thắc mắc trong cộng đồng DAB.
-✅ Hoàn thành dự án cuối khóa để áp dụng kiến thức vào thực tế.
+## 🛠 Cách Học  
+✅ Học qua các bài viết và tài liệu trên GitHub.  
+✅ Thực hành trực tiếp với SQL thông qua các bài tập thực tế.  
+✅ Thảo luận và giải đáp thắc mắc trong cộng đồng DAB.  
+✅ Hoàn thành dự án cuối khóa để áp dụng kiến thức vào thực tế.  
 
 ---
 
-## 🔗 Liên Kết Hữu Ích
-- 📂 **Truy cập repo:** [GitHub - DAB-SQL-Course](https://github.com/your-repo-link)
-- 💬 **Tham gia thảo luận:** [CLB Data Analytics](https://your-community-link)
+## 🔗 Liên Kết Hữu Ích  
+- 📂 **Truy cập repo:** [GitHub - DAB-SQL-Course](https://github.com/your-repo-link)  
+- 💬 **Tham gia thảo luận:** [CLB Data Analytics](https://your-community-link)  
 
 🚀 **Bắt đầu ngay hôm nay và làm chủ SQL cùng DAB!**
 
