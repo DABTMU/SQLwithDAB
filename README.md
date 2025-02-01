@@ -71,8 +71,8 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 ---
 
 ## 🔗 Liên Kết Hữu Ích  
-- 📂 **Truy cập repo:** [GitHub - DAB-SQL-Course](https://github.com/your-repo-link)  
-- 💬 **Tham gia thảo luận:** [CLB Data Analytics](https://your-community-link)  
+- 📂 **Truy cập repo:** [GitHub - DAB-SQL-Course](https://github.com/DABTMU?tab=repositories)  
+- 💬 **Tham gia thảo luận:** *Đang xây dựng*  
 
 🚀 **Bắt đầu ngay hôm nay và làm chủ SQL cùng DAB!**
 
