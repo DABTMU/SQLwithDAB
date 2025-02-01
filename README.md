@@ -1,4 +1,4 @@
-# 📌 Chương trình chia sẻ kiến thức SQL - CLB Data Analytics (DAB)
+# 📌 Chương trình chia sẻ kiến thức SQL - CLB Phân tích dữ liệu trong kinh doanh (DAB)
 
 ## 🎯 Giới Thiệu
 Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc Bộ Data Analytics (DAB)**! Đây là khóa học được thiết kế nhằm giúp bạn nắm vững các kiến thức từ cơ bản đến nâng cao về SQL, phục vụ cho phân tích dữ liệu trong thực tế.
