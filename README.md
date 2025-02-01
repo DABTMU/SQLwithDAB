@@ -74,3 +74,32 @@ SQL được thực thi theo quy trình xử lý truy vấn logic (Logical Query
 
 Hiểu quy trình này giúp tối ưu hóa truy vấn và viết câu lệnh SQL hiệu quả hơn.  
 
+---
+### Ví dụ minh họa
+Giả sử ta có bảng Employees và muốn tìm danh sách các bộ phận (Department) có trên 5 nhân viên, sắp xếp theo số lượng nhân viên giảm dần.  
+```sql
+SELECT Department, COUNT(*) AS EmployeeCount
+FROM Employees
+WHERE Salary > 50000
+GROUP BY Department
+HAVING COUNT(*) > 5
+ORDER BY EmployeeCount DESC
+LIMIT 10;
+```
+
+#### Diễn giải thứ tự thực thi:  
+ 1. **FROM Employees** → Lấy dữ liệu từ bảng Employees.
+ 2. **WHERE Salary > 50000** → Lọc chỉ lấy nhân viên có lương > 50,000.
+ 3. **GROUP BY Department** → Gom nhóm dữ liệu theo cột Department.
+ 4. **HAVING COUNT(*) > 5** → Chỉ giữ lại nhóm có trên 5 nhân viên.
+ 5. **SELECT Department, COUNT(*) AS EmployeeCount** → Chọn các cột cần lấy.
+ 6. **ORDER BY EmployeeCount DESC** → Sắp xếp theo số nhân viên giảm dần.
+ 7. **LIMIT 10** → Giới hạn kết quả trả về tối đa 10 dòng.
+ 
+#### Lưu ý quan trọng  
+* SELECT được viết đầu tiên nhưng thực hiện gần cuối.
+* WHERE lọc trước khi nhóm dữ liệu (GROUP BY), còn HAVING lọc sau khi nhóm dữ liệu.
+* ORDER BY là bước gần cuối, áp dụng trên kết quả đã xử lý.
+ 
+---
+### NỘI DUNG: Bùi Trịnh Minh Ngọc
