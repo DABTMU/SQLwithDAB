@@ -23,7 +23,7 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
   - Xác định các loại dữ liệu có trong bảng.
   - Kiểm tra dữ liệu NULL trong bảng.
 - Các hàm làm việc với kiểu dữ liệu:
-  - Hàm chuyển đổi kiểu dữ liệu (liệt kê, ví dụ nhiều).
+  - Hàm chuyển đổi kiểu dữ liệu.  
   - Xử lý dữ liệu dạng chuỗi.
   - Xử lý dữ liệu dạng ngày tháng.
   - Xử lý dữ liệu NULL.
@@ -72,7 +72,7 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 
 ## 🔗 Liên Kết Hữu Ích  
 - 📂 **Truy cập repo:** [GitHub - DAB-SQL-Course](https://github.com/DABTMU?tab=repositories)  
-- 💬 **Tham gia thảo luận:** *Đang xây dựng*  
+- 💬 **Tham gia thảo luận:** *Đang xây dựng*...    
 
 🚀 **Bắt đầu ngay hôm nay và làm chủ SQL cùng DAB!**
 
