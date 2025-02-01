@@ -76,31 +76,123 @@ SELECT * FROM YourTable WHERE ColumnName IS NULL;
 ## 🛠 3. Các hàm làm việc với kiểu dữ liệu  
 
 ### 3.1. Hàm chuyển đổi kiểu dữ liệu  
-- **CAST(), CONVERT()** – Chuyển đổi kiểu dữ liệu.  
-- **Ví dụ:**  
+* Dùng để chuyển đổi kiểu dữ liệu giữa các loại khác nhau.
+#### CAST()
+* CAST cho phép chuyển đổi một kiểu dữ liệu sang một kiểu khác.
+- **Ví dụ:**
 ```sql
 SELECT CAST(123.45 AS INT) AS ConvertedValue;
-SELECT CONVERT(VARCHAR, GETDATE(), 103) AS FormattedDate;
+SELECT CAST('2024-01-31' AS DATE) AS ConvertedDate;
 ```
 📌 CAST(123.45 AS INT) chuyển đổi số thực 123.45 thành số nguyên 123.  
-📌 CONVERT(VARCHAR, GETDATE(), 103) chuyển đổi ngày hiện tại thành chuỗi theo định dạng dd/MM/yyyy.  
-
-### 3.2. Xử lý dữ liệu dạng chuỗi  
-- **LENGTH(), CONCAT(), SUBSTRING(), TRIM()**  
-- **Ví dụ:**  
+📌 CAST('2024-01-31' AS DATE) chuyển đổi chuỗi thành kiểu ngày.  
+#### CONVERT()
+* CONVERT được sử dụng để chuyển đổi kiểu dữ liệu, đặc biệt hữu ích cho việc chuyển đổi ngày tháng sang chuỗi theo nhiều định dạng khác nhau.
+- **Ví dụ:**
+```sql
+SELECT CONVERT(VARCHAR, GETDATE(), 103) AS FormattedDate;
+SELECT CONVERT(INT, 456.78) AS ConvertedInteger;
+```
+📌 CONVERT(VARCHAR, GETDATE(), 103) chuyển đổi ngày hiện tại thành chuỗi có định dạng dd/MM/yyyy.  
+📌 CONVERT(INT, 456.78) chuyển đổi số thực thành số nguyên 456.  
+#### TRY_CAST()
+* TRY_CAST tương tự CAST, nhưng trả về NULL nếu không thể chuyển đổi được.
+- **Ví dụ:**
+```sql
+SELECT TRY_CAST('123abc' AS INT) AS TryCastResult;
+SELECT TRY_CAST('2024-01-31' AS DATE) AS TryCastDate;
+```
+#### TRY_CONVERT()
+* TRY_CONVERT hoạt động giống CONVERT, nhưng trả về NULL nếu chuyển đổi không hợp lệ.
+- **Ví dụ:**
+```sql
+SELECT TRY_CONVERT(INT, '456xyz') AS TryConvertResult;
+SELECT TRY_CONVERT(DATE, '31-01-2024', 103) AS TryConvertDate;
+```
+### 3.2. Xử lý dữ liệu dạng chuỗi 
+* Các hàm hỗ trợ xử lý chuỗi trong SQL.
+#### CONCAT()
+* Nối hai hoặc nhiều chuỗi lại với nhau.
+- **Ví dụ:**
+```sql
+SELECT CONCAT('Hello', ' ', 'World') AS ConcatenatedString;
+```
+#### CONCAT_WS()
+* Nối chuỗi với ký tự phân cách.
+- **Ví dụ:**
+```sql
+SELECT CONCAT_WS('-', '2024', '01', '31') AS FormattedDate;
+```
+### LEN()
+* Trả về độ dài của chuỗi.
+- **Ví dụ:**
+```sql
+SELECT LEN('Hello World') AS StringLength;
+```
+### LEFT & RIGHT()
+* Lấy một số ký tự bên trái hoặc bên phải của chuỗi.
+- **Ví dụ:**
+```sql
+SELECT LEFT('Hello World', 5) AS LeftString;
+SELECT RIGHT('Hello World', 5) AS RightString;
+```
+#### REPLICATE()
+* Lặp lại chuỗi nhiều lần.
+- **Ví dụ:**
+```sql
+SELECT REPLICATE('*', 5) AS RepeatedString;
+```
+#### REPLACE()
+* Thay thế một phần của chuỗi bằng một chuỗi khác.
+- **Ví dụ:**
+```sql
+SELECT REPLACE('Hello World', 'World', 'SQL') AS ReplacedString;
+```
+#### UPPER & LOWER()
+* Chuyển đổi chuỗi thành chữ hoa hoặc chữ thường.
+- **Ví dụ:**
+```sql
+SELECT UPPER('hello world') AS UpperString;
+SELECT LOWER('HELLO WORLD') AS LowerString;
+```
+#### CHARINDEX()
+* Tìm vị trí của một chuỗi con trong chuỗi cha.
+- **Ví dụ:**
+```sql
+SELECT CHARINDEX('o', 'Hello World') AS CharPosition;
+```
+#### SUBSTRING()
+* Trích xuất một phần của chuỗi.
+- **Ví dụ:**
+```sql
+SELECT SUBSTRING('Hello World', 1, 5) AS SubStringResult;
+```
+#### LENGTH(), CONCAT(), SUBSTRING(), TRIM() – Dùng để thao tác với chuỗi.
+- **Ví dụ:**
 ```sql
 SELECT CONCAT(FirstName, ' ', LastName) AS FullName FROM Employees;
 ```
 📌 Câu lệnh trên ghép hai cột FirstName và LastName thành một chuỗi đầy đủ.  
 
 ### 3.3. Xử lý dữ liệu dạng ngày tháng  
-- **DATEDIFF(), DATEADD(), FORMAT()**  
-- **Ví dụ:**  
+#### DATEDIFF()
+* Tính khoảng cách giữa hai ngày.
+- **Ví dụ:**
 ```sql
-SELECT DATEDIFF(YEAR, BirthDate, GETDATE()) AS Age FROM Employees;
+SELECT DATEDIFF(YEAR, '2000-01-01', GETDATE()) AS Age;
 ```
-📌 Tính tuổi của nhân viên bằng cách lấy ngày hiện tại trừ đi ngày sinh (BirthDate).  
-
+#### DATEADD()
+* Thêm hoặc bớt khoảng thời gian vào một ngày.
+- **Ví dụ:**
+```sql
+SELECT DATEADD(DAY, 7, GETDATE()) AS NextWeek;
+```
+#### FORMAT()
+* Định dạng ngày tháng theo kiểu mong muốn.
+- **Ví dụ:**
+```sql
+SELECT FORMAT(GETDATE(), 'dd/MM/yyyy') AS FormattedDate;
+```
 ### 3.4. Xử lý dữ liệu NULL  
 - **COALESCE(), ISNULL()** – Thay thế giá trị NULL.  
 - **Ví dụ:**  
@@ -133,4 +225,5 @@ SELECT FLOOR(123.456) AS FloorValue;
 📌 CEILING(123.456) làm tròn lên số nguyên gần nhất (124).  
 📌 FLOOR(123.456) làm tròn xuống số nguyên gần nhất (123).  
 
-
+---
+### NỘI DUNG: Bùi Trịnh Minh Ngọc
