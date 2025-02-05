@@ -11,12 +11,12 @@
 - **DECIMAL(p,s)**:	Đã cố định độ chính xác và số tỷ lệ. Cho phép các số từ -1038 +1 đến 1038 -1.  
 *Tham số p cho biết tổng số chữ số tối đa có thể được lưu trữ (cả bên trái và bên phải của dấu thập phân). p phải là giá trị từ 1 đến 38. Mặc định là 18.  
  Tham số s cho biết số lượng chữ số tối đa được lưu trữ ở bên phải của dấu thập phân. s phải là một giá trị từ 0 đến p. Giá trị mặc định là 0.*	(5-17 byte)
-- **NUMERIC(p,s))**: Đã cố định độ chính xác và số tỷ lệ. Cho phép các số từ -1038 +1 đến 1038 -1.  
+- **NUMERIC(p,s)**: Đã cố định độ chính xác và số tỷ lệ. Cho phép các số từ -1038 +1 đến 1038 -1.  
 *Tham số p cho biết tổng số chữ số tối đa có thể được lưu trữ (cả bên trái và bên phải của dấu thập phân). p phải là giá trị từ 1 đến 38. Mặc định là 18.  
 Tham số s cho biết số lượng chữ số tối đa được lưu trữ ở bên phải của dấu thập phân. s phải là một giá trị từ 0 đến p. Giá trị mặc định là 0* (5-17 byte)
-- **SMALLMONEY)**: Dữ liệu tiền tệ từ -214.748.3648 đến 214.748.3647 (4 byte)
+- **SMALLMONEY**: Dữ liệu tiền tệ từ -214.748.3648 đến 214.748.3647 (4 byte)
 - **MONEY**: Dữ liệu tiền tệ từ -922.337.203.685.477.5808 đến 922.337.203.685.477.5807	8 byte
-- **FLOAT(n))**: Dữ liệu số chính xác từ -1,79E + 308 đến 1,79E + 308. Tham số n cho biết trường nên giữ 4 hay 8 byte. float (24) giữ trường 4 byte và float (53) giữ trường 8 byte. Giá trị mặc định của n là 53. (4 hoặc 8 byte)
+- **FLOAT(n)**: Dữ liệu số chính xác từ -1,79E + 308 đến 1,79E + 308. Tham số n cho biết trường nên giữ 4 hay 8 byte. float (24) giữ trường 4 byte và float (53) giữ trường 8 byte. Giá trị mặc định của n là 53. (4 hoặc 8 byte)
 - **REAL**: Dữ liệu số chính xác từ -3,40E + 38 đến 3,40E + 38	(4 byte)
 
 ### 1.2. Dữ liệu dạng ký tự  
