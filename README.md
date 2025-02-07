@@ -31,7 +31,7 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
   - Định dạng ngày.
   - Làm tròn số.
 
-### 🔹 3. SELECT, FROM
+### 🔹 3. [SELECT, FROM](https://github.com/DABTMU/SQLwithDAB/blob/main/SELECT%2C%20FROM.md)
 *ĐANG CẬP NHẬT*...  
 ### 🔹 4. WHERE
 *ĐANG CẬP NHẬT*...  
