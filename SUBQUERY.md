@@ -109,4 +109,4 @@ WHERE a.customer_id in (
 ---
 ### NỘI DUNG: Trần Thị Thuý Huyền
 ---
-#### [BÀI TIẾP THEO](https://github.com/DABTMU/SQLwithDAB/blob/main/CTE.md)
+#### [BÀI TIẾP THEO: Bảng chứa dữ liệu tạm thời (Common Table Expressions - CTE)](https://github.com/DABTMU/SQLwithDAB/blob/main/CTE.md)
