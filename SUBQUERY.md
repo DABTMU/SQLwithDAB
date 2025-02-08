@@ -106,27 +106,5 @@ WHERE a.customer_id in (
     WHERE b.city in (
         SELECT city FROM sales.customers WHERE city = 'Fresno'))
 ```
-
 ---
-
-## 🏗 Bảng chứa dữ liệu tạm thời (Common Table Expressions - CTE)
-### 📖 Khái niệm
-CTE giúp lưu trữ dữ liệu trong một khoảng thời gian ngắn trong phiên làm việc, giúp xử lý dữ liệu trung gian mà không làm ảnh hưởng đến dữ liệu gốc.
-
-### 📌 Cú pháp
-```sql
-WITH CTE_Name (Col_1, Col_2,...) AS (
-    SELECT Col_1, Col_2
-    FROM Table
-    WHERE Condition)
-SELECT Col_3, Col_4
-FROM CTE_Name;
-```
-📌 **Ví dụ:**
-Lập bảng dữ liệu tạm thời với `city` và `phone` cho khách hàng tên `'Theo'`.
-```sql
-WITH mtp as 
-  ( SELECT city , phone 
-   FROM sales.customers 
-   WHERE sales.customers.first_name = 'Theo' ) 
-SELECT * FROM mtp;
+### NỘI DUNG: Trần Thị Thuý Huyền
