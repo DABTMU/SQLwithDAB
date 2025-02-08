@@ -40,7 +40,14 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 - Sử dụng COUNT để đếm số lượng bản ghi
 
 ### 🔹 4. WHERE
-*ĐANG CẬP NHẬT*...  
+- Giới thiệu
+- Các loại toán tử thường dùng trong WHERE
+  * Toán tử so sánh
+  * Toán tử AND, OR, NOT
+  * Toán tử BETWEEN
+  * Toán tử LIKE
+  * Toán tử IN
+  * Toán tử xử lý NUT
 ### 🔹 5. JOIN
 *ĐANG CẬP NHẬT*...  
 ### 🔹 6. UNION
