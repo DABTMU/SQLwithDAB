@@ -103,3 +103,5 @@ LIMIT 10;
  
 ---
 ### NỘI DUNG: Bùi Trịnh Minh Ngọc
+---
+#### [BÀI TIẾP THEO](https://github.com/DABTMU/SQLwithDAB/blob/main/C%C3%81C%20KI%E1%BB%82U%20D%E1%BB%AE%20LI%E1%BB%86U%20V%C3%80%20C%C3%81CH%20X%E1%BB%AC%20L%C3%9D%20TRONG%20SQL%20%20.md)
