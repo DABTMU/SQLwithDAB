@@ -107,4 +107,4 @@ WHERE UnitPrice > 100;
 Các lệnh `SELECT`, `DISTINCT`, `TOP`, alias, hàm tính toán và `COUNT` giúp chúng ta truy vấn dữ liệu hiệu quả trong SQL. Tiếp tục khám phá các câu lệnh nâng cao để tối ưu truy vấn dữ liệu!
 
 ---
-### Nội dung: LÊ ĐỨC MẠNH
+### NỘI DUNG: Lê Đức Mạnh
