@@ -64,13 +64,15 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 ---
 
 ## 🚀 NÂNG CAO
-### 🔹 1. Tìm Hiểu Cơ Chế Hoạt Động Của SQL (Relational Algebra)
+### 🔹 1. Tối ưu hoá truy vấn SQL (Query optimization)
 *ĐANG CẬP NHẬT*...  
-### 🔹 2. Tối Ưu Hoá Truy Vấn
+### 🔹 2. SQL nâng cao cho phân tích dữ liệu
 *ĐANG CẬP NHẬT*...  
-### 🔹 3. Mô Hình Dữ Liệu
+### 🔹 3. Kỹ thuật sử lý dữ liệu lớn (Big Data SQL)
 *ĐANG CẬP NHẬT*...  
-### 🔹 4. Chuẩn Hoá Dữ Liệu
+### 🔹 4. SQL trong Machine Learning & AI 
+*ĐANG CẬP NHẬT*...  
+### 🔹 5. Bảo mật và quản trị SQL 
 *ĐANG CẬP NHẬT*...  
 
 ---
