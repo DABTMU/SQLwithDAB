@@ -109,4 +109,4 @@ Các lệnh `SELECT`, `DISTINCT`, `TOP`, alias, hàm tính toán và `COUNT` gi�
 ---
 ### NỘI DUNG: Lê Đức Mạnh
 ---
-#### [BÀI TIẾP THEO](https://github.com/DABTMU/SQLwithDAB/blob/main/WHERE.md)
+#### [BÀI TIẾP THEO: WHERE](https://github.com/DABTMU/SQLwithDAB/blob/main/WHERE.md)
