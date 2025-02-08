@@ -57,10 +57,18 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 ### 🔹 8. WINDOW FUNCTION
 *ĐANG CẬP NHẬT*...  
 ### 🔹 9. [SUBQUERY](https://github.com/DABTMU/SQLwithDAB/blob/main/SUBQUERY.md)
-*ĐANG CẬP NHẬT*...  
+- Khái niệm
+- Cấu trúc chung của Subquery
+  1. Subquery in WHERE clause
+  2. Subquery in SELECT clause
+  3. Subquery in FROM clause
+  4. Truy vấn con tương quan (Correlated Subquery)
+  5. Lọc kết quả truy vấn bằng truy vấn trên bảng khác nhau
 ### 🔹 10. [CTE (Common Table Expressions)](https://github.com/DABTMU/SQLwithDAB/blob/main/CTE.md)
-*ĐANG CẬP NHẬT*...  
-
+- Khái niệm
+- Cú pháp
+- Ứng dụng của CTE
+  
 ---
 
 ## 🚀 NÂNG CAO
