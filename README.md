@@ -39,7 +39,7 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 - Sử dụng các hàm tính toán
 - Sử dụng COUNT để đếm số lượng bản ghi
 
-### 🔹 4. WHERE
+### 🔹 4. [WHERE](https://github.com/DABTMU/SQLwithDAB/blob/main/WHERE.md)
 - Giới thiệu
 - Các loại toán tử thường dùng trong WHERE
   * Toán tử so sánh
