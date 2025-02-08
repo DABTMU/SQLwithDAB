@@ -227,3 +227,5 @@ SELECT FLOOR(123.456) AS FloorValue;
 
 ---
 ### NỘI DUNG: Bùi Trịnh Minh Ngọc
+---
+#### [BÀI TIẾP THEO](https://github.com/DABTMU/SQLwithDAB/blob/main/SELECT%2C%20FROM.md)
