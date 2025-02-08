@@ -59,11 +59,11 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 ### 🔹 9. [SUBQUERY](https://github.com/DABTMU/SQLwithDAB/blob/main/SUBQUERY.md)
 - Khái niệm
 - Cấu trúc chung của Subquery
-  1. Subquery in WHERE clause
-  2. Subquery in SELECT clause
-  3. Subquery in FROM clause
-  4. Truy vấn con tương quan (Correlated Subquery)
-  5. Lọc kết quả truy vấn bằng truy vấn trên bảng khác nhau
+* Subquery in WHERE clause
+* Subquery in SELECT clause
+* Subquery in FROM clause
+* Truy vấn con tương quan (Correlated Subquery)
+* Lọc kết quả truy vấn bằng truy vấn trên bảng khác nhau
 ### 🔹 10. [CTE (Common Table Expressions)](https://github.com/DABTMU/SQLwithDAB/blob/main/CTE.md)
 - Khái niệm
 - Cú pháp
