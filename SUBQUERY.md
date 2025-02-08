@@ -108,3 +108,5 @@ WHERE a.customer_id in (
 ```
 ---
 ### NỘI DUNG: Trần Thị Thuý Huyền
+---
+#### [BÀI TIẾP THEO](https://github.com/DABTMU/SQLwithDAB/blob/main/CTE.md)
