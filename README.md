@@ -54,8 +54,12 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 *ĐANG CẬP NHẬT*...  
 ### 🔹 7. GROUP BY, HAVING
 *ĐANG CẬP NHẬT*...  
-### 🔹 8. WINDOW FUNCTION
-*ĐANG CẬP NHẬT*...  
+### 🔹 8. [WINDOWS FUNCTIONS](https://github.com/DABTMU/SQLwithDAB/blob/main/WINDOWSFUNCTIONS.md)
+- Giới thiệu về Windows Functions
+- Cú pháp của Windows Functions
+- Các loại Windows Functions
+- Ví dụ sử dụng Windows Functions
+- Ứng dụng của Windows Functions trong SQL
 ### 🔹 9. [SUBQUERY](https://github.com/DABTMU/SQLwithDAB/blob/main/SUBQUERY.md)
 - Khái niệm
 - Cấu trúc chung của Subquery
