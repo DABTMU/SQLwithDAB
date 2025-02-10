@@ -87,4 +87,4 @@ Windows Functions là một công cụ mạnh mẽ trong SQL giúp đơn giản 
 ---
 ### NỘI DUNG: Bùi Trịnh Minh Ngọc
 ---
-### [BÀI TIẾP THEO: TRUY VẤN CON (SUBQUERY)](https://github.com/DABTMU/SQLwithDAB/blob/main/SUBQUERY.md)
+#### [BÀI TIẾP THEO: TRUY VẤN CON (SUBQUERY)](https://github.com/DABTMU/SQLwithDAB/blob/main/SUBQUERY.md)
