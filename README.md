@@ -76,8 +76,18 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 ---
 
 ## 🚀 NÂNG CAO
-### 🔹 1. Tối ưu hoá truy vấn SQL (Query optimization)
-*ĐANG CẬP NHẬT*...  
+### 🔹 1. [Tối ưu hóa truy vấn SQL trong SQL Server](https://github.com/DABTMU/SQLwithDAB/blob/main/T%E1%BB%91i%20%C6%B0u%20ho%C3%A1%20truy%20v%E1%BA%A5n%20SQL%20(Query%20optimization).md)
+- Sử dụng Execution Plan và SQL Server Profiler
+- Tối ưu hóa Indexing
+- Cập nhật thống kê (UPDATE STATISTICS)
+- Tránh SELECT *
+- Partitioning trong SQL Server
+- Sử dụng TABLE VARIABLE thay vì TEMP TABLE khi dữ liệu nhỏ
+- Sử dụng Stored Procedures để tối ưu xử lý
+- Tránh sử dụng CURSOR, thay bằng SET BASED QUERY
+- Giới hạn số lượng bản ghi trả về
+- Kiểm tra và tối ưu hóa Deadlocks
+- Kết luận
 ### 🔹 2. SQL nâng cao cho phân tích dữ liệu
 *ĐANG CẬP NHẬT*...  
 ### 🔹 3. Kỹ thuật sử lý dữ liệu lớn (Big Data SQL)
