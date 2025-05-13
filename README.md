@@ -53,7 +53,11 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
 ### 🔹 6. UNION
 *ĐANG CẬP NHẬT*...  
 ### 🔹 7. GROUP BY, HAVING
-*ĐANG CẬP NHẬT*...  
+- Tổng quan
+- Câu lệnh Group by
+- Câu lệnh having
+- So sánh WHERE và HAVING
+- Ví dụ kết hợp WHERE - GROUP BY - HAVING
 ### 🔹 8. [WINDOWS FUNCTIONS](https://github.com/DABTMU/SQLwithDAB/blob/main/WINDOWSFUNCTIONS.md)
 - Giới thiệu về Windows Functions
 - Cú pháp của Windows Functions
