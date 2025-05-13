@@ -48,11 +48,9 @@ Chào mừng bạn đến với chương trình học **SQL** của **Câu Lạc
   * Toán tử LIKE
   * Toán tử IN
   * Toán tử xử lý NUT
-### 🔹 5. JOIN
-*ĐANG CẬP NHẬT*...  
-### 🔹 6. UNION
-*ĐANG CẬP NHẬT*...  
-### 🔹 7. GROUP BY, HAVING
+### 🔹 5. [JOINxUNION](https://github.com/DABTMU/SQLwithDAB/blob/main/JOIN%2C%20UNION.md)
+### 🔹 6. [ORDER BY](https://github.com/DABTMU/SQLwithDAB/blob/main/ORDER%20BY.md)
+### 🔹 7. [GROUP BY, HAVING](https://github.com/DABTMU/SQLwithDAB/blob/main/GROUP%20BY%2C%20HAVING.md)
 - Tổng quan
 - Câu lệnh Group by
 - Câu lệnh having
