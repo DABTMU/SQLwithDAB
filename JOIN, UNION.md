@@ -190,3 +190,6 @@ SELECT name FROM South_Region_Employees;
 | UNION ALL  | Giữ cả bản ghi trùng lặp khi gộp                          |
 
 Muốn vững JOIN và UNION thì luyện tập là chìa khóa vàng 🗝️ — Let’s SQL like a boss 😎📈!
+---
+### NỘI DUNG: Bùi Trịnh Minh Ngọc
+---
